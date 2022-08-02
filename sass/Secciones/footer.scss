@@ -1,0 +1,26 @@
+footer{
+    @include flex (row, space-around, center);
+    align-items: center;
+    height: 150px;
+    border-top: solid gold 1px;
+    background-color: rgb(214, 214, 214);   
+    i{      
+        font-size: $large;
+        margin-top: 10px;
+        color: black;
+        .fa-brands{
+            display: flex;
+            flex-direction: column;
+        }
+    }
+    .fa-instagram:before{
+        font-size: $small;
+    }
+p{
+        font-size: $small;
+    }
+
+}
+.fa-linkedin-in:before{
+font-size: $small;
+}
